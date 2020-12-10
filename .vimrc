@@ -54,3 +54,6 @@ let g:lsc_server_commands = {'dart': 'dart_language_server'}
 
 " enable the arrows in the status bar
 let g:airline_powerline_fonts = 1
+
+" path to libclang for clang_complete
+let g:clang_library_path='/usr/lib/llvm-10/lib'
